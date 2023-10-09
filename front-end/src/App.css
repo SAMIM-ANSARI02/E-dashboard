@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.nav-ul li a{
+  padding: 5px;
+ text-decoration: none;  
+ color: #fff;
+}
+
+.nav-ul{
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+
+}
+
+.nav{
+  background-color: chocolate;
+  /* display: flex; */
+}
+
+.footer{
+  text-align: center;
+  background-color: burlywood;
+  width: 100%;
+  position: absolute;
+  /* display: flex; */
+  bottom: 0;
+}
+.register{
+  display: flex;
+  justify-content: center;
+}
+
+.input{
+  
+  border: 1px solid brown;
+display: block;
+padding: 10px 30px;
+margin: 20px 0px;
+}
+.btn{
+  color: white;
+  border-radius: 10px;
+  border: none;
+  background-color: brown;
+  padding: 8px 37px;
+  margin-left: 44px;
+  cursor: pointer;
+}
+
+
+/* login page css */
+
+.login{
+  margin:30%;
+  margin-top: 100px;
+}
+h1{
+  margin: 20px 51px;
+}
+.nav-right{
+  padding: 30px;
+  display: flex;
+  justify-content: right;
+  list-style: none;
+ 
+}
+.nav-right li a{
+  padding: 5px;
+ text-decoration: none;  
+ color: #fff;
+
+}
+.logo{
+  margin:-76px 33px;
+  border-radius: 50%;
+  width: 5%;
+  height: 5%;
+}
+.product{
+  align-items: center;
+    padding: 1px -1px;
+    margin: 6px 2px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    width: 95%;
+}
+.product input{
+  padding: 10px;
+    /* height: 53%; */
+    width: 15%;
+    margin: 12px 9px;
+    border:1px solid #445bde;
+}
+.product button{
+  margin: 16px 0px;;
+  background: #445bde;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.valid-input{
+  width: 230px;
+  margin-left: 14px;
+  margin-right: -14px;
+  font-size: 14px;
+  margin: -6px 0px;
+  color: red;
+}
+
+
+/* product list css */
+
+.productlist{
+  text-align: center;
+  margin-top: 66px;
+  
+}
+.productlist ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.productlist ul li{
+ list-style: none;
+ width: 117px;
+    border: 1px solid #1E88E5;
+    padding: 15px;
+   
+    list-style: none;
+
+}
+
+.search{
+  color: #100508;
+    background: #65d5f163;
+    margin: 12px 0px;
+    padding: 5px;
+    height: 28px;
+    width: 25%;
+    border-radius: 10px;
+    
+}
